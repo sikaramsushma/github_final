@@ -6,6 +6,7 @@ public class sampleThread implements Runnable {
 		Thread thre = new Thread(new sampleThread(), "SampleThread");
 		System.out.println("test");
 		System.out.println("test clone");
+		System.out.println("test cloning");
 
 		thre.start();
 		
